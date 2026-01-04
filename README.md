@@ -17,7 +17,7 @@ A Discord bot that automatically kicks users who are alone in a voice channel fo
 
 ### 1. Clone the repository
 ```
-git clone https://github.com/your-username/afk-remover.git
+git clone https://github.com/BackwardsUser/afk-remover.git
 cd afk-remover
 ```
 
