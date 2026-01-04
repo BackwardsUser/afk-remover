@@ -1,0 +1,23 @@
+{
+  "name": "afk_remover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "Alexander Harding <AlexHardingYT@gmail.com>",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.0",
+    "discord.js": "^14.25.1"
+  }
+}

@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  discord-bot:
+    build: .
+    container_name: afk-remover
+    restart: unless-stopped
+    tty: true
+    environment:
+      - TOKEN=${TOKEN}
+      - KICK_MIN=${KICK_MIN}
+      - LONER_ROLE_NAME=${LONER_ROLE_NAME}
