@@ -71,7 +71,7 @@ client.on('voiceStateUpdate', (oldState, newState) => {
     const timer = setTimeout(() => {
       oldChannel.members.first()?.voice.disconnect(`You've been in VC for longer than ${process.env.KICK_MIN} mins`);
       toRemove.delete(oldChannel.id);
-    }, 5000);
+    }, kick_ms);
     toRemove.set(oldChannel.id, timer);
   }
 });
